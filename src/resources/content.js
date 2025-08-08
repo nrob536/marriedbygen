@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Gen",
+  lastName: "Berning",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Wedding celebrant and creative director",
+  avatar: "/images/avatar.jpeg",
+  email: "gberning18@gmail.com",
+  location: "Pacific/Auckland", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Spanish"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,9 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
-    </>
+    I am a wedding celebrant and creative director based in Carterton Wairarapa, Aotearoa - New Zealand. I share insights on wedding planning, creative direction, and personal stories.
+          </>
   ),
 };
 
@@ -30,7 +29,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/nrob536/marriedbygen#",
   },
   {
     name: "LinkedIn",
@@ -55,7 +54,8 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <> Sharing my journey as a wedding celebrant and creative director   
+   </>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,8 +63,9 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Gen, a wedding celebrant and creative director based in Carterton, Wairarapa, Aotearoa - New Zealand. I work at{" "}    
+      <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft  
+      <br /> wedding cermonies. After hours, I build my own projects.
     </>
   ),
 };
@@ -90,9 +91,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Gen is a Wairarapa based wedding celebrant with a passion for creating memorable and personalized wedding ceremonies.
+        With a background in project management, Gen brings a unique perspective to each celebration, ensuring that every detail reflects the couple's story and vision.
       </>
     ),
   },
